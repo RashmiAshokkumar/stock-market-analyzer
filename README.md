@@ -82,25 +82,25 @@ pip install -r requirements.txt
 
 ```bash
 
-\# Step 1 - Load stock data into database
+# Step 1 - Load stock data into database
 
 python src/data\_ingestion.py
 
 
 
-\# Step 2 - Run SQL analysis
+# Step 2 - Run SQL analysis
 
 python src/sql\_analysis.py
 
 
 
-\# Step 3 - Calculate technical indicators
+# Step 3 - Calculate technical indicators
 
 python src/technical\_analysis.py
 
 
 
-\# Step 4 - Detect anomalies and screen stocks
+# Step 4 - Detect anomalies and screen stocks
 
 python src/anomaly\_detection.py
 
@@ -108,7 +108,7 @@ python src/screener.py
 
 
 
-\# Step 5 - Generate Excel report
+# Step 5 - Generate Excel report
 
 python src/report\_generator.py
 
