@@ -34,27 +34,27 @@ Python · SQL (SQLite) · pandas · numpy · yfinance · SQLAlchemy · openpyxl
 
 stock-market-analyzer/
 
-├── data/               # Raw and processed data files
+├── data/               
 
-├── database/           # SQLite database (generated, not tracked)
+├── database/           
 
-├── notebooks/          # Jupyter notebooks for exploration
+├── notebooks/          
 
-├── reports/            # Generated Excel reports (not tracked)
+├── reports/            
 
 ├── src/
 
-│   ├── data\_ingestion.py       # Fetch and store stock data
+│   ├── data\_ingestion.py       
 
-│   ├── sql\_analysis.py         # Window function queries
+│   ├── sql\_analysis.py         
 
-│   ├── technical\_analysis.py   # RSI, MACD, Bollinger Bands
+│   ├── technical\_analysis.py   
 
-│   ├── anomaly\_detection.py    # Z-score and IQR anomaly detection
+│   ├── anomaly\_detection.py    
 
-│   ├── screener.py             # Fundamental stock screener
+│   ├── screener.py            
 
-│   └── report\_generator.py     # Automated Excel report
+│   └── report\_generator.py     
 
 └── requirements.txt
 
