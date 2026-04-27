@@ -1,4 +1,4 @@
-\# Stock Market Analyzer
+# Stock Market Analyzer
 
 
 
@@ -6,7 +6,7 @@ An end-to-end personal finance and stock market analysis tool built with Python 
 
 
 
-\## What it does
+## What it does
 
 \- Pulls live stock data for multiple tickers via the yfinance API
 
@@ -24,13 +24,13 @@ An end-to-end personal finance and stock market analysis tool built with Python 
 
 
 
-\## Tech Stack
+## Tech Stack
 
 Python · SQL (SQLite) · pandas · numpy · yfinance · SQLAlchemy · openpyxl
 
 
 
-\## Project Structure
+## Project Structure
 
 stock-market-analyzer/
 
@@ -60,7 +60,7 @@ stock-market-analyzer/
 
 
 
-\## Setup
+## Setup
 
 ```bash
 
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 
 
-\## Usage
+## Usage
 
 ```bash
 
@@ -116,7 +116,7 @@ python src/report\_generator.py
 
 
 
-\## Skills Demonstrated
+## Skills Demonstrated
 
 \- Python (pandas, numpy, sqlalchemy, openpyxl)
 
